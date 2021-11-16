@@ -1,0 +1,29 @@
+{
+  "private": true,
+  "author": {
+    "name": "Amin NAIRI",
+    "url": "https://github.com/aminnairi"
+  },
+  "bin": "index.mjs",
+  "bugs": {
+    "url": "https://github.com/aminnairi/discord-bot-template/issues"
+  },
+  "description": "Discord Bot template",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "index.mjs"
+  ],
+  "homepage": "https://github.com/aminnairi/discord-bot-template#readme",
+  "keywords": [
+    "discord",
+    "bot",
+    "template",
+    "demo"
+  ],
+  "license": "GPL-3.0-or-later",
+  "main": "index.mjs",
+  "name": "@aminnairi/discord-bot-template",
+  "version": "0.1.0"
+}
