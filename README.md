@@ -10,13 +10,7 @@ Discord Bot Written in JavaScript with the Node.js platform using ECMAScript Mod
 ## 2. Install the Discord JavaScript module
 
 ```console
-$ npm install --save-dev --save-exact discord.js
-```
-
-## 3. Create the Bot entrypoint
-
-```console
-$ touch index.mjs
+$ npm install
 ```
 
 ## 3. Create the configuration file
