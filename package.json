@@ -26,10 +26,11 @@
   "main": "index.mjs",
   "name": "@aminnairi/discord-bot-template",
   "scripts": {
-    "start": "node index.mjs"
+    "start": "nodemon index.mjs"
   },
   "version": "0.1.0",
-  "devDependencies": {
-    "discord.js": "13.3.1"
+  "dependencies": {
+    "discord.js": "13.3.1",
+    "nodemon": "2.0.15"
   }
 }
