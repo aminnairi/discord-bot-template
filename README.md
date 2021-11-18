@@ -21,7 +21,7 @@ $ touch settings.json
 
 ***Warning**: this file should never be put in versionning or disclosed.*
 
-## 3. Edit the configuration file
+## 4. Edit the configuration file
 
 ```json
 {
@@ -31,21 +31,23 @@ $ touch settings.json
 
 *Where `yourbottoken` is the token you copied from your Developer Portal's application bot.*
 
-## 4. Edit the Bot entrypoint
+## 5. Start the bot
 
-Open the `index.mjs` file with your prefered text editor.
+```console
+$ npm start
+```
 
-## 5. Steps
+## 5. TODO
 
-- [ ] Import the file system Node.js built-in module
-- [ ] Import the Discord JavaScript library
-- [ ] Read the content of the configuration file as raw text and then
-- [ ] Parse the content of the configuration file as JSON
-- [ ] Handle any parse errors
-- [ ] Initialize the Discord client with the wanted intents
-- [ ] Listen for when the bot is ready
-- [ ] Listen for when a message is sent
-- [ ] Login with the token
+- [X] Import the file system Node.js built-in module
+- [X] Import the Discord JavaScript library
+- [X] Read the content of the configuration file as raw text and then
+- [X] Handle any configuration reading errors
+- [X] Parse the content of the configuration file as JSON
+- [X] Handle any parse errors
+- [X] Initialize the Discord client with the wanted intents
+- [X] Listen for when the bot is ready
+- [X] Login with the token
+- [X] Listen for when a message is sent
 - [ ] Listen for when an error occurred
-- [ ] Handle any configuration reading errors
 - [ ] Handle any login errors
